@@ -1,0 +1,237 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+h1, h2, h3 {
+    font-family: 'Roboto Serif', serif;
+    margin-bottom: 15px;
+    color: #000000;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+h4 {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    color: black;
+    padding: 20px;
+    border-bottom: 3px solid #333;
+    position: relative;
+}
+
+header h1 {
+    margin: 0;
+    color: #000;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+header nav {
+    margin-left: auto;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 25px;
+}
+
+header nav ul li a {
+    color: #333;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.2rem;
+    transition: text-decoration 0.3s ease;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #111;
+    color: white;
+    padding: 15px 20px;
+    font-size: 0.9rem;
+}
+
+.huffooter {
+    margin: 0; 
+    margin-left: 1%;
+    font-size: 3rem;  
+    color: #ffffff;
+    font-family: 'Roboto Serif', serif;
+}
+
+.email-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.social-icon {
+    width: 30px;
+    height: 30px;
+}
+
+.copyright {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: #ffffff;
+    text-align: center;
+}
+
+.email {
+    margin: 0;
+    text-align: center;
+    color: #ffffff;
+}
+
+button {
+    background-color: #111;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+p {
+    font-size: 1.3rem;
+    color: #000000;
+    line-height: 1.6;
+    margin-bottom: 7px;
+    text-align: center; 
+    font-family: 'Abhaya Libre', serif;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 1.5rem;
+}
+
+h3 {
+    font-family: 'Abhaya Libre', serif;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.newsBini {
+    margin-top: 20px; 
+    text-align: center; 
+}
+
+.newsBini img {
+    width: 100%;         
+    max-width: 1700px;    
+    height: auto;        
+    margin-top: 10px;    
+}
+
+.newsCoach {
+    margin-top: 20px; 
+    text-align: center; 
+}
+
+.newsCoach img {
+    width: 100%;          
+    max-width: 1100px;     
+    height: auto;          
+    margin: 20px auto;     
+    display: block;        
+}
+
+.newsCoach h3 a {
+    color: inherit;                 
+    text-decoration: none;          
+    transition: text-decoration 0.3s ease; 
+}
+
+.newsCoach h3 a:hover {
+    text-decoration: underline;      
+    color: inherit;                  
+}
+
+#promos {
+    display: flex;                  
+    justify-content: space-evenly;  
+    flex-wrap: wrap;                
+    gap: 20px;                      
+}
+
+.promo-item {
+    width: 330px;
+    text-align: center;
+    margin: 15px;
+}
+
+.promo-item img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.promo-item p {
+    color: #000; 
+    transition: text-decoration 0.3s ease; 
+    text-decoration: none; 
+}
+
+.promo-item p a {
+    color: inherit;                 
+    text-decoration: none;          
+    transition: text-decoration 0.3s ease; 
+}
+
+.promo-item p a:hover {
+    text-decoration: underline;      
+    color: inherit;                  
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-color: #000000;  
+    width: 80%;                 
+    margin: 40px auto;          
+}
